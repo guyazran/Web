@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#CCC;	
+}
+
+.all_site{
+	width:960px;
+	min-height:500px;
+	margin:0 auto;
+	background-color:white;
+	padding:10px;	
+}
+
+.box_orange{
+	width:200px;
+	height:200px;
+	background-color:orange;
+	color:black;
+	font-size:2em;
+	text-align:center;
+	line-height:200px;	
+	/*transition-duration:2s;
+	transition-property:all;*/
+	transition:0.8s;
+	float:left;
+}
+
+.box_orange:hover{
+	background-color:#90C;
+	color:white;
+	transform:scale(1.2,1.2);
+}

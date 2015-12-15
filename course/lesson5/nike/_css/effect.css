@@ -1,0 +1,52 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#CCC;
+
+	background-size:cover;
+	
+}
+
+.all_site{
+	width:960px;
+	min-height:500px;
+	margin:0 auto;
+	background-color:rgba(255,255,255,0.5);
+	padding:10px;	
+	
+	border-radius: 53px 0px 0px 0px;
+-moz-border-radius: 53px 0px 0px 0px;
+-webkit-border-radius: 53px 0px 0px 0px;
+
+	-webkit-box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+-moz-box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+}
+
+.all_site img{
+
+
+	-webkit-box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+-moz-box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+}
+
+.img1{
+	border-radius: 53px 0px 0px 0px;
+-moz-border-radius: 53px 0px 0px 0px;
+-webkit-border-radius: 53px 0px 0px 0px
+	
+		-webkit-box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+	-moz-box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+	box-shadow: 18px 15px 20px -9px rgba(0,0,0,0.46);
+}
+
+.boxa{
+	-webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+	text-align:justify;
+	
+}

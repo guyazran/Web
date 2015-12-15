@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Form cakes order</title>
+</head>
+
+<body>
+<h1>Caked order</h1>
+<table border="1" cellspacing="0" width="500px">
+	<tr>
+    	<th width="28%" >Cake</th>
+        <th width="39%">Price</th>
+        <th width="33%" height="100px">Images</th>
+    </tr>
+    <tr>
+    	<td>Vanila cake</td>
+        <td>50 Nis</td>
+        <td><a href="_images/vanila.jpg"><img src="_images/vanila.jpg" width="150px" /></a></td>
+    </tr>
+    <tr>
+    	<td>Choclate cake Choclate</td>
+        <td>55 NIS</td>
+        <td><img src="_images/cake.jpg" width="150px" /></td>
+    </tr>
+    <tr>
+    	<td>Banana cake</td>
+        <td>60 NIS</td>
+        <td><img src="_images/banana.jpg" width="150px" /></td>
+    </tr>
+    <tr>
+    	<td colspan="3" align="center">Not include 18% tax</td>
+    </tr>
+</table>
+<form action="thank_u.html" method="post">
+	<table>
+    	<tr>
+        	<td><label>Name:</label></td>
+            <td><input type="text" name="txtName" required autofocus placeholder="Insert your name" /></td>
+        </tr>
+        <tr>
+        	<td><label>Your Phone:</label></td>
+            <td><input type="tel" name="txtPhone" /></td>
+        </tr>
+        <tr>
+        	<td><label>Email:</label></td>
+            <td><input type="email" name="txtMail" /></td>
+        </tr>
+        <tr>
+        	<td><label>Kind:</label></td>
+            <td>
+            	<select name="txtKind">
+                	<option value="Vanila">Vanila cake</option>
+                    <option value="Choclate">Choclate cake</option>
+                    <option value="Banana">Banana cake</option>
+                </select>
+            	
+           	</td>
+        </tr>
+        <tr>
+        	<td colspan="2">
+            <input type="checkbox" name="chkConfirm" />
+            <label>I confirm donate of million dollars to monkeys.co.il</label>
+            </td>
+            
+        </tr>
+    </table>
+	    
+	<br>
+
+	<button type="submit">Submit data</button>
+</form>
+</body>
+</html>

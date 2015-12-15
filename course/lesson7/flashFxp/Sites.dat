@@ -1,0 +1,269 @@
+[Commercial Sites Netscape]
+Created=36921.7359901389
+IP=ftp.netscape.com
+Port=21
+Options=300333300003
+anonymous=1
+Notes=Files relating to the Netscape browser
+
+[Commercial Sites Microsoft]
+Created=36921.7361600579
+IP=ftp.microsoft.com
+Port=21
+Options=300333300003
+anonymous=1
+Notes=Microsoft Corporation's own ftp site.
+
+[Game Sites Happy Puppy]
+Created=36921.740424294
+IP=ftp.happypuppy.com
+Port=21
+Options=300333300003
+anonymous=1
+Notes=Shareware Games and Cheats
+
+[General Sites ZDNet]
+Created=36922.0319941204
+IP=ftp.zdnet.com
+Port=21
+Options=300333300003
+anonymous=1
+Notes=Magazines and Product Reviews
+
+[Game Sites Gamers]
+Created=36922.0362261343
+IP=ftp.gamers.com
+Port=21
+Options=300333300003
+anonymous=1
+Path=/pub/
+Notes=Files for the games HalfLife and Counterstrike
+
+[Software Archives SunSite]
+Created=36922.0558272338
+IP=sunsite.unc.edu
+Port=21
+Options=300333300003
+anonymous=1
+Notes=Lots of Unix/Linux stuff!
+
+[Commercial Sites American Online]
+Created=36922.0570871528
+IP=ftp.aol.com
+Port=21
+Options=300333300003
+anonymous=1
+Notes=AOL files
+
+[Game Sites Lucasarts]
+Created=36922.0594026389
+IP=ftp.lucasarts.com
+Port=21
+Notes=Demos, Patches and Videos for LucasArts Games
+Options=300333300003
+anonymous=1
+
+[Commercial Sites Adobe]
+Created=36922.0617688889
+IP=ftp.adobe.com
+Port=21
+Options=300333300003
+anonymous=1
+Path=/pub/adobe/
+Notes=Adobe related files
+
+[General Sites WWW Clipart/Icons]
+Created=36922.0852155556
+IP=ftp.gewis.win.tue.nl
+Port=21
+Path=/pub/www/
+Notes=Web ClipArt and Icons
+Options=300333300003
+anonymous=1
+
+[Software Archives WinSite]
+Created=36922.5195323727
+IP=ftp.winsite.com
+Port=21
+Notes=Large archive of Windows 3.x, 95 and NT programs and utilities.
+Options=300333300003
+anonymous=1
+
+[Software Archives Papa WinSock-L]
+Created=36922.5197784491
+IP=papa.indstate.edu
+Port=21
+Notes=Archive of Winsock programs and utilities. 
+Options=300333300003
+anonymous=1
+
+[Software Archives Walnut Creek]
+Created=36922.5201423958
+IP=ftp.cdrom.com
+Port=21
+Notes=The Walnut Creek CDROM on line.
+Options=300333300003
+anonymous=1
+
+[Software Archives SimTel]
+Created=36922.5211570486
+IP=ftp.coast.net
+Port=21
+Path=/SimTel/
+Notes=Huge software repository of games, MS-DOS, Windows and OS/2 software.
+Options=300333300003
+anonymous=1
+
+[Software Archives UK Winsock Archive]
+Created=36922.5214514583
+IP=ftp.demon.co.uk
+Port=21
+Notes=Archive of Winsock programs and utilities, located in the United Kingdom
+Options=300333300003
+anonymous=1
+
+[Software Archives NCSA]
+Created=36922.5216924306
+IP=ftp.ncsa.uiuc.edu
+Port=21
+Notes=The National Center for Supercomputer Applications
+Options=300333300003
+anonymous=1
+
+[Commercial Sites Intel]
+Created=36922.5237859491
+IP=ftp.intel.com
+Port=21
+Notes=Intel files and support.
+Options=300333300003
+anonymous=1
+
+[Game Sites Epic Games]
+Created=36922.5243602662
+IP=ftp.epicgames.com
+Port=21
+Notes=Get their latest games!
+Options=300333300003
+anonymous=1
+
+[Game Sites Sierra On-Line, Inc.]
+Created=36922.5246148032
+IP=ftp.sierra.com
+Port=21
+Options=300333300003
+anonymous=1
+
+[General Sites PSINet, Inc.]
+Created=36922.5270896528
+IP=ftp.psi.net
+Port=21
+Options=300333300003
+anonymous=1
+
+[General Sites 2ddreams]
+Created=38299.7694415509
+IP=2ddreams.com
+User=ofer_fs1.co.il
+Pass=FB1ACE0C48D37ED2
+Port=21
+Options=300333300003300110300001000
+TZ=4
+Path=/
+
+[Software Archives 360]
+Created=39553.7089990162
+IP=ftp.mind360.com
+Port=21
+Options=300333300003300110300001000
+User=smsltd
+Pass=DB36E265A3A0B234BF
+
+[General Sites surtonim]
+Created=40569.5982099653
+IP=ftp.srutonim.co.il
+User=srutonimcoil
+Pass=54DE145EA59043BBC96695
+Port=21
+Options=300333300003300110300001000
+
+[General Sites soda]
+Created=40632.4246715278
+IP=74.63.37.74
+Options=300333300003300110300001000
+Port=21
+User=sodastream-kids
+Pass=FC18CA0262B35FA7E47F85838E
+
+[General Sites glam]
+Created=40713.5174398843
+IP=91.202.171.38
+User=vikig1
+Pass=8380A827A6AD9EE5
+Port=21
+Options=300333300003300110300001000
+
+[General Sites viki]
+Created=40758.7055025463
+IP=web4.allnet4u.biz
+User=testsviki
+Pass=080731AF2F1B0A0F78DA1415E3
+Port=21
+Options=300333300003300110300001000
+
+[General Sites dudi slot]
+Created=40856.4322686458
+IP=107.22.246.67
+User=ftpuser
+Pass=67A057F753C673DC070938C0
+Port=21
+Options=100313300003300110100001001
+
+[General Sites slot new]
+Created=40875.553626875
+IP=31.222.143.54
+User=ftpadmin
+Pass=0D063A9434E712B32EF020F8
+Port=21
+Options=100313300003300110100001001
+Path=/phpmyadmin/
+
+[General Sites test]
+Created=40888.5027947222
+IP=81.218.56.228
+User=iley 
+Pass=F042356AAA6DA52D5EF256
+Port=21
+Path=/iley 
+Options=300333300003300110300001000
+
+[GAMESJAM word]
+Created=41314.4552097685
+IP=m16.co.il
+User=word@m16.co.il
+Pass=5FD66780FF393F
+Port=21
+Options=300333300003300110300001000
+
+[GAMESJAM hackeru]
+Created=42089.4620228819
+IP=hackeruweb.co.il
+User=ofer_web@hackeruweb.co.il
+Pass=53BB63FB58B166A3ED45
+Port=21
+Options=300333300003300110300001000
+
+[GAMESJAM gil's Site]
+Created=42149.6407768287
+IP=hackeruweb,co.il
+Port=21
+Options=300333300003300110300001000
+User=ofer_web@hackeruweb.co.il
+Pass=47CF77EF54BD7297F141
+
+[GAMESJAM monkeys hacker]
+Created=42149.641554294
+IP=hackeruweb.co.il
+User=ofer_web@hackeruweb.co.il
+Pass=A1688FC70C053B58B281
+Port=21
+Options=300333300003300110300001000

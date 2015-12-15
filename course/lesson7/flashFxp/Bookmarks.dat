@@ -1,0 +1,32 @@
+[General Sites 2ddreams]
+/2ddreams.com/flash/=/2ddreams.com/flash/
+/search.2ddreams.com/=/search.2ddreams.com/
+/swatman.50webs.net/PHPtest/=/swatman.50webs.net/PHPtest/
+
+[General Sites surtonim]
+/httpdocs/ofer/=/httpdocs/ofer/
+
+[General Sites soda]
+/var/www/sodastream-kids/berpOmatic/=/var/www/sodastream-kids/berpOmatic/
+
+[General Sites viki]
+face=/
+/=/C:\appgrade\facebook2011\php\viki
+
+[General Sites dudi slot]
+/var/www/html/slotPhp/=/var/www/html/slotPhp/C:\appgrade\realApp\slotMachine\php
+
+[General Sites slot new]
+/html/slotPhp/=/html/slotPhp/C:\appgrade\realApp\slotMachine (1)\php\dudiServer
+
+[GAMESJAM word]
+wordpress=/D:\wamp
+word2=/D:\wamp\wordpress
+
+[My Computer]
+appgrade=C:\appgrade\
+backOffice=C:\wamp\www\site_mob\backOffice\
+D:\wamp\=D:\wamp\
+viki=C:\appgrade\SITE\dansLab\viki\
+wamp=D:\wamp\www
+

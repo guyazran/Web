@@ -1,0 +1,28 @@
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:silver;
+	background-image: url(../_image/pic.jpg);	
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:100% 100%;	
+}
+
+.all_site{
+	width:960px;	
+	background-color:white;
+	margin:0 auto;
+	padding:10px;
+}
+
+.prius{
+	float:left;
+	margin-right:10px;	
+	border:3px solid #6CC;
+}
+
+a{
+	text-decoration:none;
+	color:red;	
+}

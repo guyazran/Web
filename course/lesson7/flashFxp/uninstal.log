@@ -1,0 +1,53 @@
+[Header]
+Signature=VISE
+Version=0001
+RemoveInUseFiles=1
+RegistryKeyName=FlashFXP v3.0 RC4 (Build 1010)
+Product Name=FlashFXP v3.0 RC4 (Build 1010)
+[WinNT]
+AdminPrivileges=1
+[Directories2]
+0=f:\Program Files
+count=7
+1=f:\Program Files\FlashFXP
+2=C:\Documents and Settings
+3=C:\Documents and Settings\All Users
+4=C:\Documents and Settings\All Users\Start Menu
+5=C:\Documents and Settings\All Users\Start Menu\Programs
+6=C:\Documents and Settings\All Users\Start Menu\Programs\FlashFXP v3.0 RC4 (Build 1010)
+[Files]
+count=16
+0=f:\Program Files\FlashFXP\FlashFXP Website.url
+1=f:\Program Files\FlashFXP\flashfxp.chm
+2=f:\Program Files\FlashFXP\flashfxp.exe
+3=f:\Program Files\FlashFXP\flashfxp.key
+4=f:\Program Files\FlashFXP\IEFlash.dll
+5=f:\Program Files\FlashFXP\libeay32.dll
+6=f:\Program Files\FlashFXP\License Agreement.rtf
+7=f:\Program Files\FlashFXP\Readme.rtf
+8=f:\Program Files\FlashFXP\Sites.dat
+9=f:\Program Files\FlashFXP\ssleay32.dll
+10=f:\Program Files\FlashFXP\What's new.rtf
+11=C:\Documents and Settings\All Users\Start Menu\Programs\FlashFXP v3.0 RC4 (Build 1010)\FlashFXP.lnk
+12=C:\Documents and Settings\All Users\Start Menu\Programs\FlashFXP v3.0 RC4 (Build 1010)\Readme.lnk
+13=C:\Documents and Settings\All Users\Start Menu\Programs\FlashFXP v3.0 RC4 (Build 1010)\What's new.lnk
+14=C:\Documents and Settings\All Users\Start Menu\Programs\FlashFXP v3.0 RC4 (Build 1010)\FlashFXP Website.lnk
+15=C:\Documents and Settings\All Users\Start Menu\Programs\FlashFXP v3.0 RC4 (Build 1010)\Remove FlashFXP v3.0 RC4 (Build 1010).lnk
+[Shortcuts]
+0=C:\DOCUME~1\user\Desktop\FlashFXP.lnk
+[Strings]
+IDS_STRING1=Are you sure you want to completely remove the selected application and all of its components?
+IDS_STRING2=Confirm File Deletion
+IDS_STRING3=The system indicates that the following shared file is no longer used by any programs.
+IDS_STRING4=Remove Shared File?
+IDS_STRING5=Uninstall successfully completed.
+IDS_STRING6=Uninstall
+IDS_STRING7=If any programs are still using this file and it is removed, those programs may not function. Are you sure you want to remove the shared file?
+IDS_STRING8=Uninstall was partially successful.
+IDS_ADMINPRIVILEGESNEEDED=Administrative privileges are needed to uninstall this software.
+IDS_YES=&Yes
+IDS_NO=&No
+IDS_YESTOALL=Yes to &All
+IDS_REMOVINGFILE=Removing File:
+IDS_STRING16=You must shut down and restart your computer before the new settings will take effect.
+IDS_STRING17=Do you want to restart your computer now?
