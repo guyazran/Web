@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Order</title>
+<link href="_css/order_form_style.css" rel="stylesheet" >
+</head>
+
+<body>
+    <div class="all_site">
+        <h1 align="center">Fridge Order</h1>
+        <div class="product">
+            <h2>Product List:</h2>
+            <form action="thank_you.html" method="post">
+                <table cellpadding="10px" cellspacing="0" border="1">
+                    <tr>
+                        <th width="150px">Product</th>
+                        <th width="50px">Price</th>
+                        <th width="250px">Image</th>
+                    </tr>
+                    <tr>
+                        <td>One egg</td>
+                        <td align="center">$15</td>
+                        <td align="center">
+                        <a href="_images\egg.jpg">
+                        <img src="_images\egg.jpg" alt="Egg picture" width="150px">
+                        </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Rotten banana</td>
+                        <td align="center">$20</td>
+                        <td align="center">
+                        <a href="_images\banana.jpg">
+                        <img src="_images\banana.jpg" alt="Rotten banana picture" width="150px">
+                        </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The last squirt of Heinz original BBQ sauce</td>
+                        <td align="center">$50</td>
+                        <td align="center">
+                        <a href="_images\bbq.jpg">
+                        <img src="_images\bbq.jpg" alt="BBQ sauce picture" width="150px">
+                        </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Half eaten cottage cheese</td>
+                        <td align="center"><del>$500</del><br><br><strong><span style="color:red"><font size="4">$200</font></span></strong></td>
+                        <td align="center">
+                        <a href="_images\cottage.jpg">
+                        <img src="_images\cottage.jpg" alt="Cottage picture" width="150px">
+                        </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="info">
+                <h2>Fill Out Your Order Information Below:</h2>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="txtName"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td><input type="tel" name="txtPhone"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="txtMail"></td>
+                    </tr>
+                    <tr>
+                        <td>Product:</td>
+                        <td>
+                            <select>
+                            <option name="optEgg">One egg</option>
+                            <option name="optBanana">Rotten banana</option>
+                            <option name="optBBQ">The last squirt of Heinz original BBQ sauce</option>
+                            <option name="optCottage">Half eaten cottage cheese</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <input type="checkbox" name="chkTerms"> &nbsp;
+                        I agree to the <a href="terms.html" target="_blank">terms and conditions</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">Place Order</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br><br>
+        </form>
+        <p class="clear"></p>
+        <br>
+        <a href="index.html" class="back">Back Home</a>
+     </div>
+</body>
+</html>

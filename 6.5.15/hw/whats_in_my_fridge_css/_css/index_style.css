@@ -1,0 +1,47 @@
+/* CSS Document */
+
+body{
+	background-image:url(../_images/background.jpg);
+	font-size:1.3em;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+}
+
+.all_site{
+	width:930px;
+	padding:15px;
+	margin:0 auto;
+	background-color:rgba(255, 255, 255, 0.6);
+}
+
+.title{
+	width:450px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:underline;
+	border:solid 2px #A3FF6B;
+	background-color:#E500C0;
+	color:white;
+	text-shadow: 2px 2px black;
+}
+
+.para{
+	width:360px;
+	font-size:1em;
+	padding:5px;
+}
+
+/*.links{
+	width:920px;
+	padding:5px;
+	background-color:orange;
+	
+}
+*/
+.pic{
+	display:block;
+    margin:0 auto;
+}
+
+table{
+	border: 1px black dashed;
+}

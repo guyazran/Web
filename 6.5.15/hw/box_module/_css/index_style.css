@@ -1,0 +1,59 @@
+/* CSS Document */
+
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	text-align:center;
+}
+
+.all_site{
+	width:900px;
+	padding:18px;
+	background-color:blue;
+	margin:0 auto;
+}
+
+.header{
+	height:50px;
+	width:100%;
+	background-color:red;
+	float:left;
+}
+
+.navigation{
+	height:30px;
+	width:100%;
+	background-color:red;
+	float:left;
+	margin-top:18px;
+}
+
+.content{
+	height:300px;
+	width:68%;
+	background-color:red;
+	float:left;
+	margin-top:18px;
+}
+
+.sidebar{
+	height:300px;
+	width:30%;
+	background-color:red;
+	float:left;
+	margin-top:18px;
+	margin-left:2%;
+}
+
+.footer{
+	height:50px;
+	width:100%;
+	background-color:red;
+	float:left;
+	margin-top:18px;
+}
+
+p.clear{
+	clear:both;
+}

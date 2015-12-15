@@ -1,0 +1,56 @@
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:silver;
+	background-image:url(../_images/car.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:100% 100%;
+}
+
+h1{
+	background-color:#F90;
+	color:blue;
+}
+
+.title{
+	color:red;
+}
+
+#para{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	/*font-style:italic;*/
+	/*font-variant:small-caps;*/
+	font-weight:bold;
+	text-align:justify;
+	/*text-decoration:overline;
+	text-transform:capitalize;*/
+}
+
+p{
+	color:#90F;
+}
+
+.car{
+	float:left;
+	margin:8px;
+	/*border-color:red;
+	border-width:3px;
+	border-style:solid;*/
+	border:3px solid red;
+}
+
+.all_site{
+	width:960px;
+	background-color:white;
+	margin:0 auto;
+	padding:10px;
+}
+
+a{
+	text-decoration:none;
+	color:red;
+}
+
