@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/js/http_code.jquery.com_jquery-2.1.4.js" ></script>
+    <script>
+        var messages = [];
+        var highestTimeStamp = 0;
+
+        function btnSendMessage(){
+            var messageToSend = {
+                action: "SendMessage",
+                content: $('#txtMessage').val(),
+                sender: $('#txtSender').val()
+            };
+
+            $.ajax({
+                type: "POST",
+                url: 'MainServlet',
+                data: JSON.stringify(messageToSend),
+                dataType: 'json',
+                success: function(data){
+                    //alert('success ' + data.result);
+                },
+                failure: function(errorMessage){
+                    alert('error ' + errorMessage);
+                }
+            });
+        }
+        function checkForMessages(){
+            var messageToSend = {
+                action: "CheckForMessages",
+                lastMessage: highestTimeStamp
+            };
+
+            $.ajax({
+                type: "POST",
+                url: 'MainServlet',
+                data: JSON.stringify(messageToSend),
+                dataType: 'json',
+                success: function(data){
+                    var newMessages = data.messages;
+                    for (var i = 0; i < newMessages.length; i++){
+                        messages.push(newMessages[i]);
+                    }
+
+                    if(newMessages.length > 0){
+                        highestTimeStamp = data.highestTimeStamp;
+                        var s = "<table>";
+                        for (var i = 0; i < messages.length; i++){
+                            s += "<tr>";
+                            s += "<td>" + messages[i].sender + "</td>";
+                            s += "<td>" + messages[i].content + "</td>";
+                            s += "</tr>";
+                        }
+                        s+="</table>";
+                        $('#divMessages').html(s);
+                    }
+                },
+                failure: function(errorMessage){
+                    alert('error ' + errorMessage);
+                }
+            });
+
+            setTimeout(function(){
+                checkForMessages();
+            }, 3000);
+        }
+
+        $(function(){
+            setTimeout(function(){
+                checkForMessages();
+            }, 3000);
+        });
+    </script>
+
+    <link rel="apple-touch-icon" href="http://www.fun-lover.com/graphic-shop/Icons/images/Food/food-sigma-hamburger_128.png" />
+    <link rel="apple-touch-startup-image" href="http://www.fun-lover.com/graphic-shop/Icons/images/Food/food-sigma-hamburger_128.png"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width = device-width, initial-scale = 0.8, user-scalable = no">
+
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>My Website</h1>
+    Message: <input type="text" id="txtMessage" />
+    Sender: <input type="text" id="txtSender" />
+    <input type="button" value="send message" onclick="btnSendMessage()">
+    <div id="divMessages">
+
+    </div>
+</body>
+</html>

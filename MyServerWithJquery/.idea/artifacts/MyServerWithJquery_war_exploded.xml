@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyServerWithJquery:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyServerWithJquery_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MyServerWithJquery/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyServerWithJquery" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../Development/Mobile/JAR's/JSON.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
