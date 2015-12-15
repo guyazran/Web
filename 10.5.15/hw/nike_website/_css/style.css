@@ -1,0 +1,170 @@
+/* CSS Document */
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+	font-size:1em;
+}
+
+.all_site{
+	width:1300px;
+	margin:0 auto;
+}
+
+nav{
+	width:100%;
+	height:48px;
+	float:left;
+	background-image:url(../_images/nike_01.jpg);
+	box-shadow:2px 2px 14px black;
+}
+
+nav ul{
+	margin:0 auto;
+	list-style-type:none;
+}
+
+nav ul li{
+	float:right;
+}
+
+nav ul li a{
+	padding:0 13px;
+	height:47px;
+	color:black;
+	line-height:48px;
+	text-decoration:none;
+	display:inline-block;
+}
+
+.navBorders{
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:silver;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:silver;
+}
+
+.nikecom{
+	color:rgba(255,156,80,1.00);
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:silver;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:silver;
+}
+
+nav ul li a:hover{
+	color:rgba(255,156,80,1.00);
+	background-color:white;
+	box-shadow:2px 2px 14px black;
+}
+
+.logo{
+	float:left;
+}
+
+.main_pic{
+	float:left;
+}
+
+article{
+	width:100%;
+}
+
+.title{
+	float:left;
+	width:100%;
+	text-align:center;
+    font-size:3em;
+    padding:25px 0;
+}
+
+.options{
+	float:left;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.options ul{
+	width:1200px;
+	margin-right:20px;
+	list-style-type:none;	
+}
+
+.options ul li{
+	float:right;
+	padding:20px;
+}
+
+.options ul li a{
+	display:inline-block;
+	text-decoration:none;
+	color:black;
+}
+
+.options ul li a:hover p{
+	background-color:black;
+}
+
+.options span{
+	font-size:1em;
+	color:rgba(134,134,134,1.00);
+}
+
+.optBorders{
+	border-right-style:solid;
+	border-right-width:2px;
+	border-right-color:#CCC;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-left-color:#CCC;
+}
+
+.optRightBorder{
+	border-right-style:solid;
+	border-right-width:2px;
+	border-right-color:#CCC;
+}
+
+.optBottom{
+	height:5px;
+	margin-top:120px;
+	background-color:#CCC;
+}
+
+.specialBottom{
+	height:5px;
+	background-color:#CCC;
+	margin-top:102px;
+}
+
+figure{
+	margin:0;
+}
+
+footer{
+	background-color:rgba(219,219,219,1.00);
+	border-top-color:silver;
+	border-top-style:solid;
+	border-top-width:1px;
+	box-shadow:1px 1px 9px black inset;
+	width:100%;
+	height:100px;
+	text-align:center;
+	padding-top:10px;
+	float:left;
+	font-size:1.2em;
+}
+
+.like{
+	display:block;
+	margin:0 auto;	
+}
+
+p.clear{
+	clear:both;
+}
