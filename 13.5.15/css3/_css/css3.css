@@ -1,0 +1,37 @@
+/* CSS Document */
+
+.all_site > h2{
+	color:red;
+}
+
+.all_site h2+p{ 
+	/*color:blue;*/
+	/*affects the first younger brother of that tag*/
+	
+}
+
+.all_site h2~p{
+	/*background-color:yellow;*/
+	 /*affects all younger brothers of that tag*/
+}
+
+.all_site img[width*="199"][src*=".png"]
+{
+	border:4px solid orange;
+	/*affects all images that have a width of 199 and the string ".png" in the source name*/
+	/*the star (*) symbol befor the equal sign indicates that only if any part of the attribute is equal to the specified value, the property will be added*/
+}
+
+.all_site > p:nth-of-type(3n+1)
+{
+	background-color:red;
+}
+
+.all_site table tr td:nth-of-type(2n+1)
+{
+	background-color:#CCC;
+}
+
+.all_site table tr th{
+	background-color:red;
+}

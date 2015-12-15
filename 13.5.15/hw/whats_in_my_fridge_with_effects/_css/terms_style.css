@@ -1,0 +1,43 @@
+/* CSS Document */
+
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:1.3em;
+	background-image:url(../_images/background_order_form.jpg);
+}
+
+.all_site{
+	width:930px;
+	margin:0 auto;
+	padding:15px;
+	background-color:rgba(185,185,185,0.7);	
+	
+	-webkit-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+	
+	border-radius: 44px 44px 44px 44px;
+	-moz-border-radius: 44px 44px 44px 44px;
+	-webkit-border-radius: 44px 44px 44px 44px;
+	
+	-webkit-animation-duration: 1.5s; 
+    animation-duration: 1.5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+	-webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+}
+
+.content{
+	width:400px;
+	margin:0 auto;
+}

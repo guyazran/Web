@@ -1,0 +1,44 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-image:url(../_images/download.jpg);
+}
+
+.all_site{
+	width:960px;
+	min-height:500px;
+	margin:0 auto;
+	background-color:rgba(255,255,255,0.8);
+	padding:10px;
+	
+	border-radius: 58px 0px 0px 0px;
+-moz-border-radius: 58px 0px 0px 0px;
+-webkit-border-radius: 58px 0px 0px 0px;
+
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.all_site img{
+	border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+}
+
+.all_site img[src*="5"]
+{
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.boxa{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	
+	text-align:justify;
+}
