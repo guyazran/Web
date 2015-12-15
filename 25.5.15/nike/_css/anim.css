@@ -1,0 +1,45 @@
+/* CSS Document */
+@import url(_css/css3.css);
+
+@font-face{
+	font-family:'ofer';
+	font-style: normal;
+	font-weight: 400;
+	src:url(../_fonts/angrybirds.ttf) format('truetype');
+}
+
+body{
+	margin:0;
+	font-family:'ofer';
+	background-color:#CCC;	
+}
+
+.all_site{
+	width:960px;
+	min-height:500px;
+	margin:0 auto;
+	background-color:white;
+	padding:10px;
+	
+}
+
+.box_orange{
+	width:200px;
+	height:200px;
+	background-color:orange;
+	color:black;
+	transition:0.8s;
+	float:left;
+}
+
+.box_orange:hover{
+	background-color:#90C;
+	color:white;
+	/*transform:scale(0.5,0.5);*/
+	/*transform:translate(20px,10px);*/
+	transform:skew(5deg,0);
+	transform:scale(0.5,0.5)  skew(5deg,0deg);
+	/*-webkit-box-shadow: -20px -10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -20px -10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -20px -10px 5px 0px rgba(0,0,0,0.75);*/
+}

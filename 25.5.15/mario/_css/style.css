@@ -1,0 +1,50 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#CCC;	
+}
+.all_site{
+	width:960px;
+	min-height:500px;
+	margin:0 auto;
+	background-color:white;	
+}
+
+.ui{
+	height:90px;
+	width:100%;
+	padding:10px;
+	font-size:1.5em;	
+}
+
+
+.game{
+	width:960px;;
+	height:500px;
+	border:1px solid black;
+	background-image:url(../_images/rayman_background.jpg);
+	background-size:100% 100%;
+	position:relative;	
+}
+
+.game .sonic{
+position:absolute;
+top:211px;
+left:0px;
+}
+
+.game .heart{
+position:absolute;
+top:241px;
+left:210px;
+transition:0.2s;	
+}
+
+.game .skull{
+position:absolute;
+top:209px;
+left:429px;
+transition:0.2s;	
+}

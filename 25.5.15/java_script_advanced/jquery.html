@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="_css/style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="_js/script.js"></script>
+<script src="_js/sonic.js"></script>
+</head>
+
+<body>
+<div class="all_site">
+	<div class="ui">
+    	Score: <span id="score">00</span>
+		<br>
+		Lives: <span id="lives">00</span>
+		<br>
+		<button type="button" onClick="addXlife(1)">ADD LIFE</button>
+		<button type="button" onClick="addXlife(5)">ADD 5 LIVES</button>	
+    </div>
+    <div class="game">
+    	<div class="sonic" id="sonic">
+        	<img src="_image/sonic.png" height="100px" />
+        </div>
+        <div class="ring1" id="ring1">
+        	<img src="_image/the_ring.png" height="50px"/>
+        </div>
+        
+        <div class="ring2" id="ring2">
+        	<img src="_image/the_ring.png" height="50px"/>
+        </div>
+        
+        <div class="ring3" id="ring3">
+        	<img src="_image/the_ring.png" height="50px"/>
+        </div>
+		
+    </div>
+	<div class="gamepad">
+		<button type="button" onClick="moveLeft()">left</button>
+		<button type="button" onClick="moveRight()">right</button>
+	</div>
+</div>
+
+
+</body>
+</html>
