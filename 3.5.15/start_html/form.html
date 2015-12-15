@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>Cake order</h1>
+<form action="thank_you.html" method="post">
+	<table>
+    	<tr>
+        	<td><label>Name:</label></td>
+            <td><input type="text" name="txtName"></td>
+        </tr>
+        <tr>
+        	<td><label>Your Phone:</label></td>
+            <td><input type="tel" name="txtPhone"></td>
+        </tr>
+        <tr>
+        	<td><label>Email:</label></td>
+            <td><input type="email" name="txtMail"></td>
+        </tr>
+        <tr>
+        	<td><label>Kind:</label></td>
+            <td>
+            <select>
+            	<option value="Vanilla">Vanilla cake</option>
+                <option value="Chocolate">Chocolate cake</option>
+                <option value="Banana">Banana cake</option>
+            </select>
+            </td>
+        </tr>
+         <tr>
+        	<td colspan="2">
+            <input type="checkbox" name="chkConfirm" checked >
+            <label>I confirm donation of 1 million dollars to monkeys</label>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <button type="submit">submit data</button>
+</form>
+</body>
+</html>
