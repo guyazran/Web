@@ -1,0 +1,155 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body{
+	margin:0;
+	font-family: 'Alef Hebrew', sans-serif;
+	background-color:silver;
+	direction:rtl;
+	
+	background: #f1e767; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f1e767 0%, #feb645 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #f1e767 0%,#feb645 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #f1e767 0%,#feb645 100%); /* IE10+ */
+	background: linear-gradient(to right,  #f1e767 0%,#feb645 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 */
+}
+
+.all_site{
+	max-width:1300px;
+	margin:0 auto;
+	background-color:white;
+	
+	-webkit-box-shadow:0px 0px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow:0px 0px 18px 0px rgba(0,0,0,0.75);
+	box-shadow:0px 0px 18px 0px rgba(0,0,0,0.75);
+}
+
+header{
+	height:348px;
+	width:100%;
+	background-image:url(../_images/nike_01.jpg);
+	background-repeat:repeat-x;
+	float:left;
+}
+
+header .hamburger{
+	display:none;
+}
+
+header .logo{
+	width:100px;
+	float:left;
+	border-right:1px solid grey;
+}
+
+header .logo img{
+		float:left;
+		margin-left:25px;
+}
+
+header nav{
+	width:500px;
+	height:48px;
+	float:right;
+}
+
+header nav a{
+	height:48px;
+	line-height:48px;
+	text-decoration:none;
+	padding:0 10px;
+	border-left:1px solid rgba(0,0,0,0.15);
+	display:inline-block;
+	color:#333;
+	transition:0.3s;
+	float:right;
+}
+
+header nav a:hover{
+	color:orange;
+	background-color:white;
+	
+	transform:scale(1.1,1.1);
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+}
+
+header .big_pic{
+	width:100%;
+	height:300px;
+	float:left;
+	background-image:url(../_images/nike_02.jpg);
+	
+	-webkit-box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.75);
+	background-position:center top;
+}
+
+.main{
+	width:100%;
+	min-height:50px;
+	float:left;
+	text-align:center;
+}
+
+.main h1{
+	color: rgb(255, 145, 145);
+	text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+}
+
+.main .all_boxe{
+	width:100%;
+	float:left;
+}
+
+.main .all_boxes .box{
+	width:25%;
+	height:300px;
+	float:left;
+	border-left:10px solid white;
+	border-right:10px solid white;
+	box-sizing:border-box;
+	
+	-webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.main .all_boxes .box:nth-of-type(1)
+{
+	-webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0);
+	-moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0);
+	box-shadow: -1px 0px 5px 0px rgba(0,0,0,0);
+}
+
+.main .all_boxes .box .img_box{
+	height:170px;
+	background-color:#EEE;
+	text-align:center;
+}
+
+.main .all_boxes .box .img_box img{
+	transition:0.8s;
+}
+
+.main .all_boxes .box .img_box img:hover{
+	width:100%;
+}
+
+footer{
+	width:100%;
+	height:50px;
+	background-color:black;
+	color:white;
+	float:left;
+}
+
+p.clear{
+	clear:both;
+}

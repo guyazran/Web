@@ -1,0 +1,25 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#CCC;
+}
+
+.all_site{
+	width:960px;
+	min-height:500px;
+	margin:0 auto;
+	background-color:white;
+	font-size:1.5em;
+	padding:10px;
+}
+
+.ui{
+	height:100px;
+	width:100%;
+}
+
+/game{
+	width:100%;
+}
